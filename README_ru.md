@@ -6,13 +6,12 @@
 ## Здесь вы можете легко конвертировать золото в рубли или рубли в золото. При использовании дробных чисел используйте запятую, так как я не выполнял операций с точками.
   
 <p align="center">
-   <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-35.jpg" width="440" height="960">
+   <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-35.jpg" width="220" height="430">
   
-  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-11.jpg" width="440" height="960">
+  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-11.jpg" width="220" height="430">
+  
+  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-42.jpg" width="220" height="430">
 </p>
-  <p align="center">
-  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-42.jpg" width="440" height="960">
-  </p>
   
  ## Если вы хотите улучшить код этого проекта или помочь с ленивой разработкой этого калькулятора созданного на Unity 2D. Пишите на почту Rimuru.dev@gmail.com добавлю. Или форкайте и отправляйте контребьют если желаете помочь данному решению. Я был бы очень признателен. Ставьте звездочку, если идея оказалась полезной. Подпишитесь на канал [Rimuru Dev](https://www.youtube.com/channel/UCcE4Ho3vmXj_vrg5rI7bpAA) на YouTube. Всего наилучшего.
 *Оригинальный перевод
