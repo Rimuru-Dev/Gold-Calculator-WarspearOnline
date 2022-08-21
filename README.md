@@ -1,3 +1,4 @@
+[На русском языки](/README_ru.md) | [In Russian](/README_ru.md)
 
 # [RimuruDev](https://www.youtube.com/channel/UCcE4Ho3vmXj_vrg5rI7bpAA) Calculator for Warspear Online. Converting gold into rubles and vice versa.
 
