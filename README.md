@@ -17,4 +17,4 @@
   
  ## If you want to improve the code of this project or help with the lazy development of this Unity 2D calculator. Write to the mail Rimuru.dev@gmail.com I will add. Or fork and send us your workarounds. I would be very grateful. Put an asterisk if the idea was useful. Subscribe to Rimuru Dev's YouTube channel. All the best.
 
-*Translated from Russian using Google Translate.
+*Translated from Russian using Google Translate...
