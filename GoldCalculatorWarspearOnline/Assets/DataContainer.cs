@@ -7,10 +7,6 @@ namespace RimuruDev
 {
     public sealed class DataContainer : MonoBehaviour
     {
-        //[Header("UI")]
-
-        public double[] array = { 100, 1000, 10000, 100000, 1000000, 10000000, 100000000 };
-
         [Header("Exchange Rate Panel")]
         public TMP_InputField exchangeRate;
         public TMP_Text currentExchangeRateText;
