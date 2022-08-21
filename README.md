@@ -7,9 +7,9 @@
 ## Here you can easily convert gold into rubles or rubles into gold. When using fractional numbers, use a comma as I haven't done dot operations.
   
 <p align="center">
-   <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-35.jpg" width="440" height="960">
+   <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-35.jpg" width="440/2" height="960/2">
   
-  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-11.jpg" width="440" height="960">
+  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-11.jpg" width="440/2" height="960/2">
 </p>
   <p align="center">
   <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-42.jpg" width="440" height="960">
