@@ -13,9 +13,6 @@
   
   <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-42.jpg" width="220" height="430">
 </p>
-  <p align="center">
-  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-42.jpg" width="440" height="960">
-  </p>
   
  ## If you want to improve the code of this project or help with the lazy development of this Unity 2D calculator. Write to the mail Rimuru.dev@gmail.com I will add. Or fork and send us your workarounds. I would be very grateful. Put an asterisk if the idea was useful. Subscribe to Rimuru Dev's YouTube channel. All the best.
 
