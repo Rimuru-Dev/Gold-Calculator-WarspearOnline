@@ -50,6 +50,7 @@
 *.unitypackage
 crashlytics-build.properties
 
+#Visual Studio
 *.vsconfig
 .vsconfig
 #end new
