@@ -10,6 +10,8 @@
    <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-35.jpg" width="220" height="430">
   
   <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-11.jpg" width="220" height="430">
+  
+  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-42.jpg" width="220" height="430">
 </p>
   <p align="center">
   <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-42.jpg" width="440" height="960">
