@@ -1,17 +1,41 @@
 {
     "m_SelectedDeviceId": "RZ8R71SLPJY",
     "m_SelectedPackage": {
-        "deviceId": "RZ8R71SLPJY",
-        "name": "com.RimuruDev.GoldalculatorWarspearOnline",
-        "processId": 5983,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "RZ8R71SLPJY",
-            "name": "com.RimuruDev.GoldalculatorWarspearOnline",
-            "processId": 5983,
+            "name": "com.RimuruDev.CalculatorWarspearOnline",
+            "processId": 24023,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8R71SLPJY",
+            "name": "com.RimuruDev.CalculatorWarspearOnline",
+            "processId": 24356,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8R71SLPJY",
+            "name": "com.RimuruDev.CalculatorWarspearOnline",
+            "processId": 26339,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8R71SLPJY",
+            "name": "com.RimuruDev.CalculatorWarspearOnline",
+            "processId": 29187,
+            "exited": true
+        },
+        {
+            "deviceId": "RZ8R71SLPJY",
+            "name": "com.RimuruDev.CalculatorWarspearOnline",
+            "processId": 31319,
             "exited": false
         }
     ],

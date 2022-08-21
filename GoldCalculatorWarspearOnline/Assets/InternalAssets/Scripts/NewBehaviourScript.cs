@@ -21,6 +21,15 @@ public class NewBehaviourScript : MonoBehaviour
 
         if (double.TryParse(inputField.text, out double number))
         {
+            //Продам золото, все русские сервера
+            //Amber УХИ/ ГОРЫ
+            //1к - 2.1 р / 1.4 грн
+            //Ruby, УХИ / ГОРЫ
+            //1к - 1,7р / 1.2 грн
+            //Topaz, УХИ / ГОРЫ
+            //1к - 1,7р / 1.2 грн
+            //ПО ПОВОДУ ЗОЛОТА ПИСАТЬ СЮД
+
             goldText.text = $"{number:N}";
 
             double result = number;
