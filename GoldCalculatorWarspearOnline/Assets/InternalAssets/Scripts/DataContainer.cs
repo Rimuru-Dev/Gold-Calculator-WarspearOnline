@@ -1,3 +1,11 @@
+// **************************************************************** //
+//
+//   Copyright (c) RimuruDev. All rights reserved.
+//   Project: Infinity Dead
+//   Contact me: rimuru.dev@gmail.com
+//
+// **************************************************************** //
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

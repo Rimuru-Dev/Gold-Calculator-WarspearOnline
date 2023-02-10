@@ -1,4 +1,12 @@
-﻿using UnityEngine;
+﻿// **************************************************************** //
+//
+//   Copyright (c) RimuruDev. All rights reserved.
+//   Project: Infinity Dead
+//   Contact me: rimuru.dev@gmail.com
+//
+// **************************************************************** //
+
+using UnityEngine;
 
 namespace RimuruDev
 {
