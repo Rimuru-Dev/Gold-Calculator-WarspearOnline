@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 6064332}
   - component: {fileID: 6064331}
   - component: {fileID: 6064330}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -312,7 +312,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 379144105}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 463315215}
   - component: {fileID: 463315217}
   - component: {fileID: 463315216}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ GameObject:
   - component: {fileID: 637657774}
   - component: {fileID: 637657776}
   - component: {fileID: 637657775}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HeadText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -534,7 +534,7 @@ MonoBehaviour:
     m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
@@ -626,7 +626,7 @@ GameObject:
   - component: {fileID: 923981156}
   - component: {fileID: 923981158}
   - component: {fileID: 923981157}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: LineRoot_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -718,7 +718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1598691867}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_End_Developer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -897,7 +897,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8062283392231676340}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_Result
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -977,7 +977,7 @@ GameObject:
   - component: {fileID: 8062283392271826610}
   - component: {fileID: 8062283392271826608}
   - component: {fileID: 8062283392271826609}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 8062283392476073166}
   - component: {fileID: 8062283392476073164}
   - component: {fileID: 8062283392476073165}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ResultImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1083,7 +1083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0.105882354}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1098,7 +1098,7 @@ MonoBehaviour:
     m_MaxSize: 40
     m_Alignment: 3
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
@@ -1134,7 +1134,7 @@ GameObject:
   - component: {fileID: 8062283392490209586}
   - component: {fileID: 8062283392490209584}
   - component: {fileID: 8062283392490209585}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1178,7 +1178,7 @@ MonoBehaviour:
     m_MaxSize: 30
     m_Alignment: 3
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
@@ -1215,7 +1215,7 @@ GameObject:
   - component: {fileID: 8062283392599728704}
   - component: {fileID: 8062283392599728705}
   - component: {fileID: 1034141690}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1328,7 +1328,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8062283392810465115}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1387,7 +1387,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8062283393005952050}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1428,7 +1428,7 @@ GameObject:
   - component: {fileID: 8062283393226061273}
   - component: {fileID: 8062283393226061274}
   - component: {fileID: 8062283393226061275}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Gold_In_Rub_InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1563,7 +1563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1578,7 +1578,7 @@ MonoBehaviour:
     m_MaxSize: 43
     m_Alignment: 3
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
@@ -1614,7 +1614,7 @@ GameObject:
   - component: {fileID: 8062283393473545110}
   - component: {fileID: 8062283393473545108}
   - component: {fileID: 8062283393473545109}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1639,10 +1639,10 @@ RectTransform:
   m_Father: {fileID: 379144105}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.7142916}
-  m_AnchorMax: {x: 1, y: 0.8192916}
-  m_AnchoredPosition: {x: 2.419983, y: -489}
-  m_SizeDelta: {x: 0, y: 100.69495}
+  m_AnchorMin: {x: 0, y: 0.15300001}
+  m_AnchorMax: {x: 1, y: 0.36710724}
+  m_AnchoredPosition: {x: 2.419983, y: 0}
+  m_SizeDelta: {x: 0, y: -7.3050537}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8062283393686437505
 GameObject:
@@ -1654,7 +1654,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8062283393686437504}
   - component: {fileID: 5903491413179226748}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_Set_Rate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1683,7 +1683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1698,7 +1698,7 @@ MonoBehaviour:
     m_MaxSize: 43
     m_Alignment: 3
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
@@ -1734,7 +1734,7 @@ GameObject:
   - component: {fileID: 8062283393810333805}
   - component: {fileID: 8062283393810333779}
   - component: {fileID: 8062283393810333804}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1763,7 +1763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -1778,7 +1778,7 @@ MonoBehaviour:
     m_MaxSize: 48
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
@@ -1814,7 +1814,7 @@ GameObject:
   - component: {fileID: 8062283394038789114}
   - component: {fileID: 8062283394038789112}
   - component: {fileID: 8062283394038789113}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1898,7 +1898,7 @@ GameObject:
   - component: {fileID: 8062283394210172934}
   - component: {fileID: 8062283394210172935}
   - component: {fileID: 8062283394210172928}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8062283392180099392}
   - component: {fileID: 8062283392180099394}
   - component: {fileID: 8062283392180099395}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ResultImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 8062283392182736060}
   - component: {fileID: 8062283392182736062}
   - component: {fileID: 8062283392182736063}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.084742896, y: 0.039}
   m_AnchorMax: {x: 0.9197714, y: 1}
-  m_AnchoredPosition: {x: -1, y: -1.9999962}
+  m_AnchoredPosition: {x: -1, y: -1.9999924}
   m_SizeDelta: {x: 2.25, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8062283392182736062
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 8062283392291207118}
   - component: {fileID: 8062283392291207119}
   - component: {fileID: 803203700}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 8062283392501738300}
   - component: {fileID: 8062283392501738302}
   - component: {fileID: 8062283392501738303}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -285,7 +285,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.084742896, y: 0.039}
   m_AnchorMax: {x: 0.9197714, y: 1}
-  m_AnchoredPosition: {x: -1, y: -1.9999962}
+  m_AnchoredPosition: {x: -1, y: -1.9999924}
   m_SizeDelta: {x: 2.25, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8062283392501738302
@@ -339,7 +339,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8062283392541805626}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_Result
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8062283392707381692}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,7 +414,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8062283393037230805}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 8062283393179178520}
   - component: {fileID: 8062283393179178522}
   - component: {fileID: 8062283393179178523}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -522,7 +522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Result
 --- !u!1 &8062283393385736975
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,7 +533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8062283393385736974}
   - component: {fileID: 5903491413485654002}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_Gold_In_Rub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 8062283393460166743}
   - component: {fileID: 8062283393460166740}
   - component: {fileID: 8062283393460166741}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Gold_In_Rub_InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -734,7 +734,7 @@ GameObject:
   - component: {fileID: 8062283393805198964}
   - component: {fileID: 8062283393805198966}
   - component: {fileID: 8062283393805198967}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 8062283393902167432}
   - component: {fileID: 8062283393902167433}
   - component: {fileID: 8062283393902167438}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -936,7 +936,7 @@ GameObject:
   - component: {fileID: 8062283394050217443}
   - component: {fileID: 8062283394050217437}
   - component: {fileID: 8062283394050217442}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}

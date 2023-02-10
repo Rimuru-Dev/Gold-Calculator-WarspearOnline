@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7661786472850702039}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_Result
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7661786473018980127}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 7661786473027126799}
   - component: {fileID: 7661786473027126801}
   - component: {fileID: 7661786473027126800}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.084742896, y: 0.039}
   m_AnchorMax: {x: 0.9197714, y: 1}
-  m_AnchoredPosition: {x: -1, y: -1.9999962}
+  m_AnchoredPosition: {x: -1, y: -1.9999924}
   m_SizeDelta: {x: 2.25, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7661786473027126801
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 7661786473037748484}
   - component: {fileID: 7661786473037748486}
   - component: {fileID: 7661786473037748485}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: ResultImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -242,7 +242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7661786474647862568}
   - component: {fileID: 1888630894634297466}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_Gold_In_Gold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -296,7 +296,7 @@ GameObject:
   - component: {fileID: 7661786473698323867}
   - component: {fileID: 7661786473698323869}
   - component: {fileID: 7661786473698323868}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -376,7 +376,7 @@ GameObject:
   - component: {fileID: 7661786473925995522}
   - component: {fileID: 7661786473925995524}
   - component: {fileID: 7661786473925995523}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 7661786474305225978}
   - component: {fileID: 7661786474305225980}
   - component: {fileID: 7661786474305225979}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 7661786474521159809}
   - component: {fileID: 7661786474521159808}
   - component: {fileID: 7661786474521159871}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Gold_In_Gold_InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7661786474687266476}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Div_InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -722,7 +722,7 @@ GameObject:
   - component: {fileID: 7661786474730129789}
   - component: {fileID: 7661786474730129788}
   - component: {fileID: 1740255582}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -814,7 +814,7 @@ GameObject:
   - component: {fileID: 7661786474849524075}
   - component: {fileID: 7661786474849524077}
   - component: {fileID: 7661786474849524076}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Placeholder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -838,7 +838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.084742896, y: 0.039}
   m_AnchorMax: {x: 0.9197714, y: 1}
-  m_AnchoredPosition: {x: -1, y: -1.9999962}
+  m_AnchoredPosition: {x: -1, y: -1.9999924}
   m_SizeDelta: {x: 2.25, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7661786474849524077
@@ -895,7 +895,7 @@ GameObject:
   - component: {fileID: 7661786474889925611}
   - component: {fileID: 7661786474889925610}
   - component: {fileID: 7661786474889925609}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
