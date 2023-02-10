@@ -15,7 +15,7 @@ namespace Development.RimuruDev.WarspearOnline
         public CurrencyType Currency => currency;
         private readonly CurrencyType currency;
 
-        public Text ResultText => resultText;
+        public Text ResultText => resultText;   // TODO: Add a setter to update by event.
         private readonly Text resultText = null;
 
         public Button Button => button;
