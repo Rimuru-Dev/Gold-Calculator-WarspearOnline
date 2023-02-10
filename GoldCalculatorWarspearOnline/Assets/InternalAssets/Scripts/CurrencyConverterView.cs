@@ -1,7 +1,7 @@
 // **************************************************************** //
 //
 //   Copyright (c) RimuruDev. All rights reserved.
-//   Project: Infinity Dead
+//   Project: Gold Calculator WarspearOnline
 //   Contact me: rimuru.dev@gmail.com
 //
 // **************************************************************** //
@@ -11,7 +11,7 @@ using UnityEngine.UI;
 
 namespace Development.RimuruDev.WarspearOnline
 {
-    public sealed class CurrencyConverterUI : MonoBehaviour
+    public sealed class CurrencyConverterView : MonoBehaviour
     {
         [SerializeField] private CurrencyType currency;
 
@@ -29,6 +29,6 @@ namespace Development.RimuruDev.WarspearOnline
             currencyConverterController = new(userInputField, resultText, currency, button);
         }
 
-        public void Convertation() => currencyConverterController?.CalculateCurrancyConvertation(currency);
+        public void Convertation() => currencyConverterController.CalculateCurrancyConvertation(currency);
     }
 }

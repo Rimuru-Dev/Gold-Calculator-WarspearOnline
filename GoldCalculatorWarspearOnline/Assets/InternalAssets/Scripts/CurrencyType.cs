@@ -1,7 +1,7 @@
 ﻿// **************************************************************** //
 //
 //   Copyright (c) RimuruDev. All rights reserved.
-//   Project: Infinity Dead
+//   Project: Gold Calculator WarspearOnline
 //   Contact me: rimuru.dev@gmail.com
 //
 // **************************************************************** //
