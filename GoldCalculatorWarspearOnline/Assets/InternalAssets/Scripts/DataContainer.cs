@@ -2,23 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 namespace RimuruDev
 {
     public sealed class DataContainer : MonoBehaviour
     {
         [Header("Exchange Rate Panel")]
-        public TMP_InputField exchangeRate;
-        public TMP_Text currentExchangeRateText;
+        public InputField exchangeRate;
+        public Text currentExchangeRateText;
         [Space]
         public double currentExchangeRateRub;
 
         [Header("Calculator Panel")]
-        public TMP_InputField enterNewGoldExchange;
-        public TMP_InputField enterNewRubExchange;
+        public InputField enterNewGoldExchange;
+        public InputField enterNewRubExchange;
         [Space]
-        public TMP_Text goldRubResultText;
-        public TMP_Text rubGoldResultText;
+        public Text goldRubResultText;
+        public Text rubGoldResultText;
 
         private void OnValidate()
         {

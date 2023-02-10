@@ -123,6 +123,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &5254667
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5254669}
+  - component: {fileID: 5254668}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &5254668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c4d2a8e8b21d104da172033ae34eba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldRate: 1.7
+--- !u!4 &5254669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.45644933, y: 1.3403962, z: 481.87906}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &22401944
 GameObject:
   m_ObjectHideFlags: 0
@@ -244,9 +289,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1169644326}
-        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: CalculateGold
+      - m_Target: {fileID: 5254668}
+        m_TargetAssemblyTypeName: RimuruDev.CurrencyConverter, Assembly-CSharp
+        m_MethodName: Convert
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1414,7 +1459,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1169644327}
-  - component: {fileID: 1169644326}
+  - component: {fileID: 1169644328}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1422,18 +1467,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1169644326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1169644325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e499c36d92578f4ea459c5e0f3be27d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1169644327
 Transform:
   m_ObjectHideFlags: 0
@@ -1449,6 +1482,25 @@ Transform:
   m_Father: {fileID: 278956682}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1169644328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169644325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 141ab8d96c74cef4294852f474fd7121, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exchangeRate: {fileID: 662087478}
+  currentExchangeRateText: {fileID: 1162635416}
+  currentExchangeRateRub: 1.7
+  enterNewGoldExchange: {fileID: 662087478}
+  enterNewRubExchange: {fileID: 1820215684}
+  goldRubResultText: {fileID: 1983233983}
+  rubGoldResultText: {fileID: 650703590}
 --- !u!1 &1209707768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,7 +1745,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1169644326}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
         m_MethodName: CalculateRub
         m_Mode: 1
