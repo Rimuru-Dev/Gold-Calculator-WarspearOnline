@@ -28,14 +28,33 @@ namespace Development.RimuruDev.WarspearOnline
         {
             currencyRateModel = new(currentRateText, applyRateButton, userRateInputField);
 
+            SubscribeToButton();
             InitDeafaultCurrencyRate();
+            InitDeafaultCurrencyRateText();
         }
 
-        private void InitDeafaultCurrencyRate()
+        ~CurrencyRateController() => UnsubscribeToButton();
+
+        public void ApplyNewCurrencyRate()
         {
-            currencyRateModel.CurrentRate = 1.7d;
-            currencyRateModel.CurrentRateText.text = $"{currencyRateModel.CurrentRate}";
+            // TODO: Added check for 0 and division
+            if (double.TryParse(currencyRateModel.UserRateInputField.text, out double result)) // // TODO: ==> Sender
+            {
+                // Notify about the new value. Pattern: Notify
+
+
+
+                currencyRateModel.CurrentRateText.text = $"{result} per 1000 gold";
+            }
         }
+
+        private void InitDeafaultCurrencyRate() => currencyRateModel.CurrentRate = 1.7d; // TODO: Add SO Config for game default values.
+
+        private void InitDeafaultCurrencyRateText() => currencyRateModel.CurrentRateText.text = $"{currencyRateModel.CurrentRate}";
+
+        private void SubscribeToButton() => currencyRateModel.ApplyRateButton.onClick.AddListener(delegate { ApplyNewCurrencyRate(); });
+
+        private void UnsubscribeToButton() => currencyRateModel.ApplyRateButton.onClick.RemoveAllListeners();
     }
 
     public sealed class CurrencyRateModel
@@ -49,7 +68,7 @@ namespace Development.RimuruDev.WarspearOnline
         public InputField UserRateInputField => userRateInputField;
         private readonly InputField userRateInputField = null;
 
-        public double CurrentRate { get => currentRate; set => currentRate = value; }
+        public double CurrentRate { get => currentRate; set => currentRate = value; } // TODO: Add protection for the property.
         private double currentRate = 0;
 
         public CurrencyRateModel(Text currentRateText, Button applyRateButton, InputField userRateInputField)
@@ -58,5 +77,10 @@ namespace Development.RimuruDev.WarspearOnline
             this.applyRateButton = applyRateButton;
             this.userRateInputField = userRateInputField;
         }
+    }
+
+    public interface INotify
+    {
+
     }
 }

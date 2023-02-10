@@ -24,6 +24,8 @@ namespace Development.RimuruDev.WarspearOnline
         public InputField UserInputField => userInputField;
         private readonly InputField userInputField = null;
 
+        public double CurrencyRate = 1.7d; // TODO: 11/02/2023 02:07 Доделать позже
+
         public CurrencyConverterModel(InputField userInputField, Text resultText, CurrencyType currency, Button button)
         {
             this.button = button;

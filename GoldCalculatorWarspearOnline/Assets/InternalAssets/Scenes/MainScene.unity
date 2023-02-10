@@ -756,19 +756,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7661786474647862568, guid: 2fab3dd5a69d36e45924df72d08b17f8, type: 3}
   m_PrefabInstance: {fileID: 7661786473142990880}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5903491413179226748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8062283393686437505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b5067c914c13ef2458871b1ff1518f61, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currency: 0
 --- !u!1001 &7661786473142990880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1653,7 +1640,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8062283393686437504}
-  - component: {fileID: 5903491413179226748}
+  - component: {fileID: 8062283393686437506}
   m_Layer: 5
   m_Name: Div_Set_Rate
   m_TagString: Untagged
@@ -1661,6 +1648,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8062283393686437506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8062283393686437505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99dfeb6a3a5930f45bfa8cfd28da34a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!222 &8062283393810333779
 CanvasRenderer:
   m_ObjectHideFlags: 0

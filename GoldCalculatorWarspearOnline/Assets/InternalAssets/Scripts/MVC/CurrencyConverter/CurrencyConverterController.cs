@@ -25,7 +25,7 @@ namespace Development.RimuruDev.WarspearOnline
 
         ~CurrencyConverterController() => UnsubscribeToButton();
 
-        public void CalculateCurrancyConvertation(CurrencyType currency)
+        public void CalculateCurrancyConvertation(CurrencyType currency) // // TODO: ===> Reciver
         {
             if (double.TryParse(currencyModel.UserInputField.text, out double result))
             {

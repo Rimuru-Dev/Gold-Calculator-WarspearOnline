@@ -28,7 +28,5 @@ namespace Development.RimuruDev.WarspearOnline
 
             currencyConverterController = new(userInputField, resultText, currency, button);
         }
-
-        public void Convertation() => currencyConverterController.CalculateCurrancyConvertation(currency);
     }
 }
