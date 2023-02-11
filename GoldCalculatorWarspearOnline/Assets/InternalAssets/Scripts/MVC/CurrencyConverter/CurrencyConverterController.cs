@@ -21,11 +21,12 @@ namespace Development.RimuruDev.WarspearOnline
 
             InitialText();
             SubscribeToButton();
+            SetRate(currencyModel.CurrencyRate);
         }
 
         ~CurrencyConverterController() => UnsubscribeToButton();
 
-        public void CalculateCurrancyConvertation(CurrencyType currency) // // TODO: ===> Reciver
+        public void CalculateCurrancyConvertation(CurrencyType currency)
         {
             if (double.TryParse(currencyModel.UserInputField.text, out double result))
             {
@@ -41,14 +42,16 @@ namespace Development.RimuruDev.WarspearOnline
             }
         }
 
+        public void SetRate(double rate) => currencyModel.CurrencyRate = rate;
+
         private void InitialText() => currencyModel.ResultText.text = $"0 {currencyModel.Currency}";
 
         private void SubscribeToButton() => currencyModel.Button.onClick.AddListener(delegate { CalculateCurrancyConvertation(currencyModel.Currency); });
 
         private void UnsubscribeToButton() => currencyModel.Button.onClick.RemoveAllListeners();
 
-        private double ConvertGoldToRubles(double gold) => Math.Clamp(gold, 100d, double.MaxValue) * 1.7d / 1000d;
+        private double ConvertGoldToRubles(double gold) => Math.Clamp(gold, 100d, double.MaxValue) * currencyModel.CurrencyRate / 1000d;
 
-        private double ConvertRublesToGold(double rubles) => Math.Clamp(rubles, 1d, double.MaxValue) * 1000d / 1.7d;
+        private double ConvertRublesToGold(double rubles) => Math.Clamp(rubles, 1d, double.MaxValue) * 1000d / currencyModel.CurrencyRate;
     }
 }

@@ -1,4 +1,4 @@
-// **************************************************************** //
+﻿// **************************************************************** //
 //
 //   Copyright (c) RimuruDev. All rights reserved.
 //   Project: Gold Calculator WarspearOnline
@@ -6,9 +6,7 @@
 //
 // **************************************************************** //
 
-using UnityEngine;
-
 namespace Development.RimuruDev.WarspearOnline
 {
-    public sealed class ResultTextTag : MonoBehaviour { }
+    public interface INotify { }
 }
