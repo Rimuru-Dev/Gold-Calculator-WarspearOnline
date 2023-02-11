@@ -7,12 +7,6 @@
 ## Вторая кнопка перенаправит вас на калькулятор (конвертер) золота в рубли и наоборот.
 ## Здесь вы можете легко конвертировать золото в рубли или рубли в золото. При использовании дробных чисел используйте запятую, так как я не выполнял операций с точками.
   
-<p align="center">
-   <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-35.jpg" width="220" height="430">
-  
-  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-11.jpg" width="220" height="430">
-  
-  <img src="https://github.com/RimuruDev/Gold-Calculator-WarspearOnline/raw/main/GitResources//photo_2022-08-21_15-20-42.jpg" width="220" height="430">
-</p>
-  
+![Screenshot-0ac1a04fbf4a55a45bb35aaf6e96ba46](https://user-images.githubusercontent.com/85500556/218255600-3e922416-fb9e-4248-87b8-7e80907ef422.png)
+
  ## Если вы хотите улучшить код этого проекта или помочь с ленивой разработкой этого калькулятора созданного на Unity 2D. Пишите на почту Rimuru.dev@gmail.com добавлю. Или форкайте и отправляйте контребьют если желаете помочь данному решению. Я был бы очень признателен. Ставьте звездочку, если идея оказалась полезной. Подпишитесь на канал [Rimuru Dev](https://www.youtube.com/channel/UCcE4Ho3vmXj_vrg5rI7bpAA) на YouTube. Всего наилучшего.
