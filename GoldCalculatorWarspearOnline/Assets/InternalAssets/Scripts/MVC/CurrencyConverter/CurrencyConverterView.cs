@@ -14,19 +14,15 @@ namespace Development.RimuruDev.WarspearOnline
     public sealed class CurrencyConverterView : MonoBehaviour
     {
         [SerializeField] private CurrencyType currency;
-
-        private Button button = null;
-        private Text resultText = null;
-        private InputField userInputField = null;
-        private CurrencyConverterController currencyConverterController = null;
+        public CurrencyConverterController CurrencyConverterController { get; private set; }
 
         private void Awake()
         {
-            button = GetComponentInChildren<Button>();
-            userInputField = GetComponentInChildren<InputField>();
-            resultText = GetComponentInChildren<ResultTextTag>().GetComponent<Text>();
+            Button button = GetComponentInChildren<Button>();
+            InputField userInputField = GetComponentInChildren<InputField>();
+            Text resultText = GetComponentInChildren<ResultTextTag>().GetComponent<Text>();
 
-            currencyConverterController = new(userInputField, resultText, currency, button);
+            CurrencyConverterController = new(userInputField, resultText, currency, button);
         }
     }
 }

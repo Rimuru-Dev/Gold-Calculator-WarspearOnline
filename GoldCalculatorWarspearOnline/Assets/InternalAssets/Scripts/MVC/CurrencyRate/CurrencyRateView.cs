@@ -5,18 +5,15 @@ namespace Development.RimuruDev.WarspearOnline
 {
     public sealed class CurrencyRateView : MonoBehaviour
     {
-        private Text currentRateText = null;
-        private Button applyRateButton = null;
-        private InputField userRateInputField = null;
-        private CurrencyRateController currencyRateController = null;
+        public CurrencyRateController CurrencyRateController { get; private set; }
 
         private void Awake()
         {
-            applyRateButton = GetComponentInChildren<Button>();
-            userRateInputField = GetComponentInChildren<InputField>();
-            currentRateText = GetComponentInChildren<ResultTextTag>().GetComponent<Text>();
+            Button applyRateButton = GetComponentInChildren<Button>();
+            InputField userRateInputField = GetComponentInChildren<InputField>();
+            Text currentRateText = GetComponentInChildren<ResultTextTag>().GetComponent<Text>();
 
-            currencyRateController = new(currentRateText, applyRateButton, userRateInputField);
+            CurrencyRateController = new(currentRateText, applyRateButton, userRateInputField);
         }
     }
 
