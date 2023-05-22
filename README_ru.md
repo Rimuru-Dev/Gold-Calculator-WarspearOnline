@@ -25,6 +25,9 @@
   <a>
     <img alt="GitHub user stars" src="https://img.shields.io/github/stars/RimuruDev?affiliations=OWNER&branch=main&label=User%20Stars&logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat">
   </a>
+       <a>
+    <img alt="" src="https://img.shields.io/github/watchers/RimuruDev/Gold-Calculator-WarspearOnline?style=flat">
+  </a>
 </p>
 
 # Простой конвертер валют для Warspear Online
