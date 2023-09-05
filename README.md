@@ -1,5 +1,7 @@
 #### [[На русском языки](/README_ru.md) - [In Russian](/README_ru.md)] | [[На английском языки](/README.md) - [In English](/README.md)]
 
+[Telegram](https://t.me/DevLogUnity)
+
 <p align="center">
   <a>
     <img alt="Made With Unity" src="https://img.shields.io/badge/made%20with-Unity-57b9d3.svg?logo=Unity">
